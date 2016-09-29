@@ -8,7 +8,7 @@ var express 		= require('express'),
 	friends			= require('./api/friends.json');
 
 var app = express();
-var PORT = 3000;
+var PORT = 80;
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
